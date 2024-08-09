@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import logo from './logo.svg';
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getAuth, signInWithPopup, GoogleAuthProvider, User, signInWithRedirect, getRedirectResult, signOut, setPersistence, inMemoryPersistence, browserSessionPersistence, onAuthStateChanged } from "firebase/auth";
+import { GoogleAuthProvider, User, getAuth, signInWithPopup, signOut } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
