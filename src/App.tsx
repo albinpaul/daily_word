@@ -40,6 +40,7 @@ function App() {
     }
   }
 
+  
   const googleSignOut = async () => {
     try {
       signOut(auth);
