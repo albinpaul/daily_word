@@ -16,8 +16,8 @@ export function useAuth() {
     return useContext(AuthContext)
 }
 
-export default function AuthContextProvider(props: {children: React.ReactNode}) {
-    const [authUser, setAuthUser] = useState<User| null>(null)
+export default function AuthContextProvider(props: { children: React.ReactNode }) {
+    const [authUser, setAuthUser] = useState<User | null>(null)
     const contextInitValue = {
         user: authUser,
         setUser: setAuthUser

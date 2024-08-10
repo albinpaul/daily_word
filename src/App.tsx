@@ -1,7 +1,5 @@
-import { useState } from 'react';
 import './App.css';
 
-import { User } from "firebase/auth";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AuthContextProvider from './auth/AuthContext';
 import HomePage from './components/HomePage';
